@@ -1,6 +1,6 @@
 import threading
 
-counter = 0
+counter = 111111
 
 def increment():
     global counter
