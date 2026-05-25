@@ -4,7 +4,7 @@ counter = 0
 
 def increment():
     global counter
-    for _ in range(100000):
+    for _ in range(100):
         counter += 1
 
 t1 = threading.Thread(target=increment)
